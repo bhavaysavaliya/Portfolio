@@ -30,15 +30,17 @@ function Hobbies() {
                         flexWrap: "wrap",
                         justifyContent: "center",
                         alignItems: "center"
-                    }}>
-                    <ul style={{ display: "flex", flexDirection: "row", gap: "90px" }}>
-                        <li><b>Travelling</b></li>
-                        <li><b>Sports (Volleyball, Cycling, Swimming, etc.)</b></li>
-                        <li><b>Gym</b></li>
-                        <li><b>Chess (Regional Player)</b></li>
-                        <li><b>Knowing latest trends in gadgets and technologies</b></li>
+                    }}
+                >
+                    <ul style={{ display: "flex", flexDirection: "row", flexWrap: "wrap", gap: "10px" }}>
+                        <li style={{marginRight:"60px"}}><b>Travelling</b></li>
+                        <li style={{marginRight:"60px"}}><b>Chess (Regional Player)</b></li>
+                        <li style={{marginRight:"60px"}}><b>Gym</b></li>
+                        <li style={{marginRight:"60px"}}><b>Sports (Volleyball, Cycling, Swimming, etc.)</b></li>
+                        <li style={{marginRight:"60px"}}><b>Knowing latest trends in gadgets and technologies</b></li>
                     </ul>
                 </div>
+
             </div>
         </div>
     )
