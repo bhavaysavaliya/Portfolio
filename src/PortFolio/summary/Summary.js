@@ -45,7 +45,7 @@ function Summary() {
           float: 'left',
         }}
       >
-        <h1 style={{ marginLeft: '20px', fontSize: '50px', marginTop: '20px',textAlign:"center" }}>Bhavay Savaliya</h1>
+        <h1 style={{ fontSize: '50px', marginTop: '20px',textAlign:"center" }}>Bhavay Savaliya</h1>
         <p
           style={{
             marginLeft: '20px',
