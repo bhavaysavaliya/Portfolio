@@ -35,10 +35,9 @@ function Summary() {
         <img style={{ width: '300px', height: '300px', borderRadius: '50%' }} src={image} alt="Not found" />
       </div>
       <div
-        id="content"
         style={{
           flex: 1,
-          maxWidth: '400px',
+          maxWidth: '450px',
           minWidth:"300px",
           borderRadius: '50px',
           display: 'block',
@@ -46,7 +45,7 @@ function Summary() {
           float: 'left',
         }}
       >
-        <h1 style={{ marginLeft: '20px', fontSize: '50px', marginTop: '20px' }}>Bhavay Savaliya</h1>
+        <h1 style={{ marginLeft: '20px', fontSize: '50px', marginTop: '20px',textAlign:"center" }}>Bhavay Savaliya</h1>
         <p
           style={{
             marginLeft: '20px',
