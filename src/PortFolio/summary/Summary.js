@@ -28,7 +28,6 @@ function Summary() {
           borderRadius: '50px',
           display: 'block',
           margin: '10px',
-          marginRight: '30px',
           float: 'left',
         }}
       >
