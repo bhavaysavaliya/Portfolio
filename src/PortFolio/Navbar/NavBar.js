@@ -28,7 +28,7 @@ function NavBar() {
             duration: 800,
             delay: 0,
             smooth: 'easeInOutQuart',
-            offset: -80, // Add an offset of -80 pixels from the top
+            offset: -80, 
         });
     };
 

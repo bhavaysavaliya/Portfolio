@@ -4,7 +4,6 @@ function Education() {
         <div
             style={{
                 width: "100%",
-                backgroundColor: "white"
             }}>
             <div>
                 <h1 style={{
@@ -32,7 +31,7 @@ function Education() {
                         maxWidth: "800px",
                         borderRadius: "50px",
                         display: "block",
-                    }}>
+                    }}><br/><br/>
                     <h1 style={{ fontSize: "30px", textAlign: "center", margin: "5px" }}>B.Tech in Electronics and Communication Engineering</h1>
                     <p style={{ marginRight: "20px", textAlign: "center", fontSize: "20px" }}>Sardar Vallabhbhai National Institute of Technology</p>
                     <p style={{ marginRight: "20px", textAlign: "center", fontSize: "20px" }}><b>CGPA :</b> 7.26</p>

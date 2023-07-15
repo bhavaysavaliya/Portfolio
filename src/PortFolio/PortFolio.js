@@ -6,10 +6,9 @@ import Education from './Education/Education';
 import Project from './Projects/Project';
 import Skills from './Skills/Skills';
 import Hobbies from './Hobbies/Hobbies';
-
 function PortFolio() {
     return (
-        <>
+        <div style={{ backgroundColor: "white" }}>
             <div style={{
                 position: 'fixed',
                 top: 0,
@@ -39,7 +38,8 @@ function PortFolio() {
             <Element name='hobbies' className='element'>
                 <Hobbies />
             </Element>
-        </>
+            <br />
+        </div>
     );
 }
 

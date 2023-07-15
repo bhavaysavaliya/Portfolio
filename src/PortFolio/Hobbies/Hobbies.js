@@ -4,8 +4,7 @@ function Hobbies() {
     return (
         <div
             style={{
-                width: "100%",
-                backgroundColor: "white"
+                width: "100%"
             }}>
             <div>
                 <h1

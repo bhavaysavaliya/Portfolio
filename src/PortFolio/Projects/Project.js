@@ -5,8 +5,7 @@ function Project() {
     return (
         <div
             style={{
-                width: "100%",
-                backgroundColor: "white"
+                width: "100%"
             }}>
             <div>
                 <h1
@@ -26,6 +25,8 @@ function Project() {
                         backgroundColor: "#E0E1DD",
                         maxWidth: "100%",
                         margin: "10px",
+                        paddingTop:"20px",
+                        paddingBottom:"20px",
                         borderRadius: "50px",
                         display: "flex",
                         flexWrap: "wrap",
