@@ -27,13 +27,12 @@ function NavBar() {
         scroller.scrollTo(links[index], {
             duration: 800,
             delay: 0,
-            smooth: 'easeInOutQuart',
-            offset: -80, 
+            smooth: 'easeInOutQuart', 
         });
     };
 
     return (
-        <AppBar position="static">
+        <AppBar position="fixed">
             <Container maxWidth="xl">
                 <Toolbar disableGutters>
                     <IconButton

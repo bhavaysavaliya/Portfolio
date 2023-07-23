@@ -9,36 +9,36 @@ import Hobbies from './Hobbies/Hobbies';
 function PortFolio() {
     return (
         <div style={{ backgroundColor: "white" }}>
-            <div style={{
-                position: 'fixed',
-                top: 0,
-                left: 0,
-                right: 0,
-                zIndex: 9999
-            }}>
-                <NavBar />
+            <div style={{ margin: "0 auto" }}>
+                <div>
+                    <NavBar />
+                </div>
+                <Element name='home' className='element'>
+                    <div style={{ paddingTop: "65px" }}>
+                        <Summary />
+                    </div>
+                </Element>
+                <Element name='education' className='element'>
+                    <div style={{ paddingTop: "65px" }}>
+                        <Education />
+                    </div>
+                </Element>
+                <Element name='projects' className='element'>
+                    <div style={{ paddingTop: "65px" }}>
+                        <Project />
+                    </div>
+                </Element>
+                <Element name='skills' className='element'>
+                    <div style={{ paddingTop: "65px" }}>
+                        <Skills />
+                    </div>
+                </Element>
+                <Element name='hobbies' className='element'>
+                    <div style={{ paddingTop: "65px" }}>
+                        <Hobbies />
+                    </div>
+                </Element>
             </div>
-            <br /><br /><br />
-            <Element name='home' className='element'>
-                <Summary />
-            </Element>
-            <br /><br /><br />
-            <Element name='education' className='element'>
-                <Education />
-            </Element>
-            <br /><br /><br />
-            <Element name='projects' className='element'>
-                <Project />
-            </Element>
-            <br /><br /><br />
-            <Element name='skills' className='element'>
-                <Skills />
-            </Element>
-            <br /><br /><br />
-            <Element name='hobbies' className='element'>
-                <Hobbies />
-            </Element>
-            <br />
         </div>
     );
 }

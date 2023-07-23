@@ -9,7 +9,7 @@ import Typography from '@mui/material/Typography';
 
 function ProjectLabel({ heading, link,imageurl }) {
   const handleViewClick = () => {
-    window.location.href = link;
+    window.open(link, '_blank');
   };
 
   return (
