@@ -59,11 +59,11 @@ function Summary() {
         </p>
         <div style={{ marginLeft: '20px' }}>
           <p style={{ display: 'flex', alignItems: 'center', marginBottom: '4px' }}>
-            <PhoneIcon style={{ marginRight: '5px', color: 'green' }} />
+            <PhoneIcon style={{ marginRight: '5px', color: 'green', cursor: 'pointer' }} onClick={() => window.location.href = 'tel:8866626533'} />
             <span>88666 26533</span>
           </p>
           <p style={{ display: 'flex', alignItems: 'center', marginTop: '0', marginBottom: '4px' }}>
-            <MailIcon style={{ marginRight: '5px', color: 'red' }} />
+            <MailIcon style={{ marginRight: '5px', color: 'red', cursor: 'pointer' }} onClick={() => window.location.href = 'mailto:bvysavaliya@gmail.com'} />
             <span>bvysavaliya@gmail.com</span>
           </p>
           <a href={'https://github.com/bhavaysavaliya'} target="_blank" rel="noopener noreferrer">
