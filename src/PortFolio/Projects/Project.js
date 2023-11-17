@@ -34,7 +34,7 @@ function Project() {
                         alignItems: "center"
                     }}>
                     <ProjectLabel heading='My Personal Image Manager' imageurl={"temp.png"} link={"https://bhavaysavaliya.github.io/My_Personal_Image_Manager"}/>
-                    <ProjectLabel heading='Dogs Care and Education' imageurl={"dog.png"} link={"https://bhavaysavaliya.github.io/Dog_care_docs/"}/>
+                    <ProjectLabel heading='Dogs Care and Education' imageurl={"dog.png"} link={"https://github.com/bhavaysavaliya/Dogs_Care_and_Education"}/>
                     <ProjectLabel heading='High Level Security Login' imageurl={"secure.png"} link={"https://bhavaysavaliya.github.io/High_lvl_docs/"}/>
                 </div>
             </div>
