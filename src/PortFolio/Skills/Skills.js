@@ -31,12 +31,14 @@ function Skills() {
                         justifyContent: "center",
                         alignItems: "center"
                     }}>
-                    <SkillLabel heading={"Programming Languages"} list={["Java (Expert)", "Python (For ML and DL)", "C (Moderate)", "MATLAB"]} />
-                    <SkillLabel heading={"Problem Solving Skills"} list={["DSA (Java)", "OOPS (Java)", "System Design (Basic)"]} />
-                    <SkillLabel heading={"Frontend"} list={["HTML and EJS", "CSS", "JavaScript", "React (Moderate)"]} />
-                    <SkillLabel heading={"Backend & Database"} list={["Node", "Express and Flask", "MongoDB (with Mongoose and with Py_Mongo) & MySQL"]} />
-                    <SkillLabel heading={"Machine Learning & Deep Learning"} list={["Libraries: Numpy, Pandas, Scikit-learn, keras, etc.", "Neural Networks", "Computer Vision"]} />
-                    <SkillLabel heading={"CS Fundamentals"} list={["Operating Systems", "Computer Networks", "DBMS"]} />
+                    <SkillLabel heading={"Core Java"} list={["Spring Boot, Spring MVC", "Hibernate JPA, Spring Security", "Spring REST, JDBC, Maven", "IDE: Spring Tool Suite 4, IntelliJ"]} />
+                    <SkillLabel heading={"Problem Solving Skills (Java)"} list={["Data Structure and Algorithms", "Object Oriented Programming","System Design (Moderate)","IDE: IntelliJ, VS Code"]}/>
+                    <SkillLabel heading={"Python"} list={["Machine Learnig", "Computer Vision", "Deep Learning","IDE: Jupyter Notebook"]} />
+                    <SkillLabel heading={"Frontend"} list={["HTML, CSS, JavaScript, EJS", "React (Moderate), REST API", "IDE: VS Code, Postman"]} />
+                    <SkillLabel heading={"Backend & Database"} list={["Node, Flask", "MongoDB, MySQL, PostgreSQL", "IDE: VS Code"]} />
+                    <SkillLabel heading={"Deployment Tools"} list={["Tensorflow Serving (For Tensorflow model deployment)", "Docker"]} />
+                    <SkillLabel heading={"Operating Systems"} list={["Windows", "Linux","Tools: VM Ware"]}/>
+                    <SkillLabel heading={"Other Programming Languages"} list={["C (basic), C++(basic)","MATLAB","Shell Script (Basic)"]}/>
                 </div>
             </div>
         </div>
