@@ -33,9 +33,9 @@ function Project() {
                         justifyContent: "center",
                         alignItems: "center"
                     }}>
-                    <ProjectLabel heading='My Personal Image Manager' imageurl={"temp.png"} link={"https://bhavaysavaliya.github.io/My_Personal_Image_Manager"}/>
+                    <ProjectLabel heading='My Personal Image Manager' imageurl={"temp.png"} link={"https://github.com/bhavaysavaliya/My_Personal_Image_Manager"}/>
                     <ProjectLabel heading='Dogs Care and Education' imageurl={"dog.png"} link={"https://github.com/bhavaysavaliya/Dogs_Care_and_Education"}/>
-                    <ProjectLabel heading='High Level Security Login' imageurl={"secure.png"} link={"https://bhavaysavaliya.github.io/High_lvl_docs/"}/>
+                    <ProjectLabel heading='Bleeding Detection in WCE' imageurl={"WCE.png"} link={"https://github.com/Aishwary11111/Final_year_project_report"}/>
                 </div>
             </div>
         </div>
